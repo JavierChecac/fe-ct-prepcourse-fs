@@ -8,12 +8,17 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve False.
    // Tu código:
-}
+   if(num > 0){
+      return "Es positivo"}
+      else if (num < 0){return "Es negativo"}
+else (num == 0);{return false }}
+   
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
+   return str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
